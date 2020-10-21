@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "'IBM Plex Mono'",
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "prettier.semi": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderFinalNewline": true,
+    "prettier.tabWidth": 4
+}

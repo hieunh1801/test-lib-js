@@ -1,16 +1,23 @@
 {
-  "name": "test-lib-js",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "demo1": "node 1-geo-coder"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "geocoder": "^0.2.3"
-  }
+    "name": "test-lib-js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "demo1": "node 1-geo-coder",
+        "run:mjoi": "nodemon mjoi",
+        "test:mjest": "nodemon mjest",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "geocoder": "^0.2.3",
+        "joi": "^17.2.1",
+        "nodemon": "^2.0.6"
+    },
+    "devDependencies": {
+        "jest": "^26.6.0"
+    }
 }
